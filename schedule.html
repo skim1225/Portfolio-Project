@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="the lucky shrub logo">
+      <h1>Lucky Shrub Nursery</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="schedule.html">Schedule Service</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>Schedule a Service</h2>
+        <form method="POST">
+          <div>
+            <label for="service_type">Service Type</label><br>
+            <select id="service_type" name="service_type" required>
+              <option value="garden_design">Garden Design</option>
+              <option value="garden_creation">Garden Creation</option>
+              <option value="maintenance">Maintenance</option>
+              <option value="landscaping">Lanscaping</option>
+            </select>
+            </div>
+            <div>
+              <label for="date-selection">Select Date</label><br>
+              <input type="date" id="date-selection" name="date-selection" required>
+            </div>
+            <button type="submit">Book Service</button>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <div>
+        <img src="logo.png" alt="the lucky shrub logo">
+      </div>
+      <div>
+        <p>Copyright Lucky Shrub 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
